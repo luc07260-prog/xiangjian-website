@@ -1,7 +1,6 @@
 import planImg from '../assets/images/plan.jpg';
 import { motion } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
-import planImg from './assets/images/plan.jpg';
 
 export default function JoinPlan() {
   return (

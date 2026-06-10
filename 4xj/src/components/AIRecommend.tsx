@@ -1,3 +1,5 @@
+import lanlingImg from '../assets/images/lanling.jpg';
+import huizhouImg from '../assets/images/huizhou.jpg';
 import { motion } from 'motion/react';
 import { Send, MapPin, Sparkles, Cpu, Target, Layers } from 'lucide-react';
 
@@ -149,7 +151,7 @@ export default function AIRecommend() {
                 className="group w-[540px] glass-panel-dark rounded-[2.5rem] border border-white/10 overflow-hidden backdrop-blur-4xl shadow-2xl lg:-mt-40"
               >
                 <div className="relative h-48 overflow-hidden">
-                  <img src="/src/assets/images/lanling.jpg" className="w-full h-64 object-cover rounded-xl mb-4" />
+                  <img src={lanlingImg} className="w-full h-64 object-cover rounded-xl mb-4" />
                   <div className="absolute top-4 right-4 px-3 py-1 bg-brand rounded-lg text-bg-dark text-[10px] font-bold">MATCH 98%</div>
                 </div>
                 <div className="p-8">
@@ -175,7 +177,7 @@ export default function AIRecommend() {
                 className="group w-[480px] glass-panel-dark rounded-[2.5rem] border border-white/10 overflow-hidden backdrop-blur-4xl shadow-2xl lg:mt-40"
               >
                 <div className="relative h-48 overflow-hidden">
-                  <img src="/src/assets/images/huizhou.jpg" className="w-full h-64 object-cover rounded-xl mb-4" />
+                  <img src={huizhou}} className="w-full h-64 object-cover rounded-xl mb-4" />
                   <div className="absolute top-4 right-4 px-3 py-1 bg-brand rounded-lg text-bg-dark text-[10px] font-bold">MATCH 92%</div>
                 </div>
                 <div className="p-8">

@@ -13,7 +13,8 @@ export default function Stories() {
       </div>
 
       <div className="relative h-[600px] rounded-[40px] overflow-hidden group">
-        < img src="/wangpo.jpg" alt="Main Story" className="w-full h-full object-cover transition-transform" />
+        <img 
+          src="/src/assets/images/wangpo.jpg" 
           alt="Main Story" 
           className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
         />

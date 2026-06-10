@@ -1,4 +1,4 @@
-import wangpoImg from './assets/images/wangpo.jpg';
+import wangpoImg from '../assets/images/wangpo.jpg';
 import { motion } from 'motion/react';
 import { ArrowLeft, ArrowRight, Play } from 'lucide-react';
 
@@ -13,11 +13,7 @@ export default function Stories() {
       </div>
 
       <div className="relative h-[600px] rounded-[40px] overflow-hidden group">
-        <img 
-          src="/src/assets/images/wangpo.jpg" 
-          alt="Main Story" 
-          className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
-        />
+        < img src={wangpoImg} alt="Main Story" className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" />
         <div className="absolute inset-0 bg-gradient-to-r from-bg-dark via-bg-dark/40 to-transparent" />
         
         <div className="absolute inset-0 flex flex-col justify-center p-16">

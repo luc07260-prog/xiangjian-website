@@ -1,3 +1,4 @@
+import hero-bgImg from '../assets/images/hero-bg.jpg';
 import { motion } from 'motion/react';
 import { Search, PlayCircle, MousePointer2 } from 'lucide-react';
 import { STATS } from '../constants';
@@ -8,7 +9,7 @@ export default function Hero() {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img
-          src="/src/assets/images/hero-bg.jpg"
+          src={hero-bgImg}
           alt="Misty Mountain Village"
           className="w-full h-full object-cover"
         />

@@ -1,3 +1,4 @@
+import planImg from '../assets/images/plan.jpg';
 import { motion } from 'motion/react';
 import { ArrowRight } from 'lucide-react';
 import planImg from './assets/images/plan.jpg';
@@ -8,7 +9,7 @@ export default function JoinPlan() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/src/assets/images/plan.jpg" 
+          src={planImg}
           className="w-full h-full object-cover"
           alt="Joining Plan Background"
         />

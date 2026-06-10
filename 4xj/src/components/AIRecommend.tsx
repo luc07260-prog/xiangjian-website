@@ -177,7 +177,7 @@ export default function AIRecommend() {
                 className="group w-[480px] glass-panel-dark rounded-[2.5rem] border border-white/10 overflow-hidden backdrop-blur-4xl shadow-2xl lg:mt-40"
               >
                 <div className="relative h-48 overflow-hidden">
-                  <img src={huizhou}} className="w-full h-64 object-cover rounded-xl mb-4" />
+                  <img src={huizhouImg}} className="w-full h-64 object-cover rounded-xl mb-4" />
                   <div className="absolute top-4 right-4 px-3 py-1 bg-brand rounded-lg text-bg-dark text-[10px] font-bold">MATCH 92%</div>
                 </div>
                 <div className="p-8">
